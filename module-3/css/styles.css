@@ -1,0 +1,50 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: antiquewhite;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+
+.navbar, .navbar-expand-sm {
+  margin: 0;
+  padding: 0;
+}
+.container-fluid {
+  background-color: lightblue;
+  border: 0;
+  padding: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+ul {
+  background-color: black;
+}
+
+header.text-center {
+  color: black;
+  font-size: 40px;
+}
+.container#maincontent{
+  margin: 10px;
+  border-width: 2px;
+  background-color: grey;
+  border-style: solid;
+  border-color: black;
+  margin: auto;
+}
+
+li {
+  border-color: black;
+  background-color: lightgrey;
+  border-width: 2px;
+  color: black;
+}
